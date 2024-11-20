@@ -1,0 +1,10 @@
+.avatar {
+  border-radius: 50%;
+}
+
+.card {
+  padding: 1rem;
+  border: solid;
+  border-radius: 12.5%;
+  max-width: fit-content;
+}
