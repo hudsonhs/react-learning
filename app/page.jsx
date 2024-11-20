@@ -6,9 +6,7 @@ export default function Home() {
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2">Describing the UI</h2>
         <ul className="list-disc ml-6">
-          <li><a href="/describing-ui/first-component" className="text-blue-500 hover:underline">First Component</a></li>
-          <li><a href="/describing-ui/jsx" className="text-blue-500 hover:underline">JSX and JavaScript</a></li>
-          <li><a href="/describing-ui/props" className="text-blue-500 hover:underline">Props</a></li>
+          <li><a href="/describing-ui/conditional-rendering" className="text-blue-500 hover:underline">Conditional Rendering</a></li>
         </ul>
       </section>
 
