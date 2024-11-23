@@ -7,6 +7,7 @@ export default function Home() {
         <h2 className="text-xl font-semibold mb-2">Describing the UI</h2>
         <ul className="list-disc ml-6">
           <li><a href="/describing-ui/conditional-rendering" className="text-blue-500 hover:underline">Conditional Rendering</a></li>
+          <li><a href="/describing-ui/rendering-lists" className="text-blue-500 hover:underline">Rendering Lists</a></li>
         </ul>
       </section>
 
