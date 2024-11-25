@@ -24,7 +24,7 @@ export function GoodComponent({guest}) {
     return <h2>Tea cups for {guest} guests</h2>
 }
 
-// Can't change state on the DOM
+// Can't change the DOM directly
 export function BadClock({ time }) {
     let hours = time.getHours();
     if (hours >= 0 && hours <= 6) {
@@ -68,11 +68,6 @@ export function BadStoryTray({ stories }) {
 }
 
 export function GoodStoryTray({ stories }) {
-    stories.push({
-      id: 'create',
-      label: 'Create Story'
-    });
-  
     return (
       <ul>
         {stories.map(story => (
@@ -80,6 +75,7 @@ export function GoodStoryTray({ stories }) {
             {story.label}
           </li>
         ))}
+        <li>Create Story</li>
       </ul>
     );
 }
