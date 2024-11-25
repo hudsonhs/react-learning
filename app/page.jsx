@@ -8,6 +8,7 @@ export default function Home() {
         <ul className="list-disc ml-6">
           <li><a href="/describing-ui/conditional-rendering" className="text-blue-500 hover:underline">Conditional Rendering</a></li>
           <li><a href="/describing-ui/rendering-lists" className="text-blue-500 hover:underline">Rendering Lists</a></li>
+          <li><a href="/describing-ui/keeping-components-pure" className="text-blue-500 hover:underline">Keeping Components Pure</a></li>
         </ul>
       </section>
 
