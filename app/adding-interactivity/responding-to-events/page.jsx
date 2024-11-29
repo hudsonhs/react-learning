@@ -188,7 +188,7 @@ function NonPropButton({ onClick, children }) {
 }
 
 // To force propagation, add "Capture" at the end of an event name:
-export default function Toolbar6() {
+function Toolbar6() {
     return (
         <div onClickCapture={() => alert('You clicked the toolbar!')}>
             <NonPropButton onClick={() => {alert('Playing!')}}>
@@ -203,3 +203,16 @@ export default function Toolbar6() {
 
 // It actually propagates down rather than up, so "you clicked the toolbar" gets shown first
 
+// You can also prevent default behavior of tags, like when a form is submitted, the page is refreshed automatically. Here's the code to prevent that:
+// It's e.preventDefault. Which is diff from stopPropagation which stops the parent event handlers from being called.
+export default function Signup() {
+    return (
+        <form onSubmit={e => {
+            e.preventDefault();
+            alert('Submitting!');
+        }}>
+            <input />
+            <button>Send</button>
+        </form>
+    );
+}
