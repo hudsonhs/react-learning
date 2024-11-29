@@ -15,7 +15,7 @@ export default function Home() {
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2">Adding Interactivity</h2>
         <ul className="list-disc ml-6">
-          <li><a href="/adding-interactivity/events" className="text-blue-500 hover:underline">Responding to Events</a></li>
+          <li><a href="/adding-interactivity/responding-to-events" className="text-blue-500 hover:underline">Responding to Events</a></li>
           <li><a href="/adding-interactivity/state" className="text-blue-500 hover:underline">State</a></li>
         </ul>
       </section>
