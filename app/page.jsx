@@ -17,6 +17,7 @@ export default function Home() {
         <ul className="list-disc ml-6">
           <li><a href="/adding-interactivity/responding-to-events" className="text-blue-500 hover:underline">Responding to Events</a></li>
           <li><a href="/adding-interactivity/state" className="text-blue-500 hover:underline">State</a></li>
+          <li><a href="/adding-interactivity/state-as-snapshot" className="text-blue-500 hover:underline">State as snapshot</a></li>
         </ul>
       </section>
     </div>

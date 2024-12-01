@@ -1,5 +1,6 @@
 import { sculptureList } from './data.js'
 import Gallery from './Gallery.jsx';
+import Form from './Form.jsx'
 
 // This does not work as expected becuase it changes variables by not using state:
 function GalleryWrong() {
@@ -39,6 +40,7 @@ export default function App() {
         <>
             <Gallery />
             <Gallery />
+            <Form />
         </>
     )
 }
