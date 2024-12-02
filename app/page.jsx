@@ -18,6 +18,7 @@ export default function Home() {
           <li><a href="/adding-interactivity/responding-to-events" className="text-blue-500 hover:underline">Responding to Events</a></li>
           <li><a href="/adding-interactivity/state" className="text-blue-500 hover:underline">State</a></li>
           <li><a href="/adding-interactivity/state-as-snapshot" className="text-blue-500 hover:underline">State as snapshot</a></li>
+          <li><a href="/adding-interactivity/queueing-a-series-of-state-updates" className="text-blue-500 hover:underline">Queueing a series of state updates</a></li>
         </ul>
       </section>
     </div>

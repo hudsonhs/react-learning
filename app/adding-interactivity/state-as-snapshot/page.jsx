@@ -19,7 +19,7 @@ function Counter() {
 }
 
 // Even though it's on a timer, this will always show what number was at the snapshot of when
-// This was rendered.
+// This was rendered, so it'll be what you see - 5.
 export default function Counter() {
     const [number, setNumber] = useState(0);
   
